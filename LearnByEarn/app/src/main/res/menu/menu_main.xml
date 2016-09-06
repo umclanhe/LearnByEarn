@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/username"  android:title="Change Name"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/coupon"  android:title="Get Coupon"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/menuhistory"  android:title="Reward History"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/finish"  android:title="Exit"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

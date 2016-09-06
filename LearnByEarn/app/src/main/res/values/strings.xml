@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EarnByLearn</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">EarnByLearn</string>
+    <string name="Checkin">Checkin</string>
+    <string name="reward">Reward Store</string>
+    <string name="history">Reward History</string>
+    <string name="name">Name: </string>
+    <string name="score">Score: </string>
+    <string name="title_activity_util">Util</string>
+	<string name="username">Username: </string>
+    <string name="title_activity_history">History</string>
+</resources>
+    

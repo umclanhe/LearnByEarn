@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC"
+    android:padding="10pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/ulinearLayout"
+      >
+
+        <TextView android:text="@string/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewardhistory"
+            android:textColor="#b10029"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView android:text="Congratulation, "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hellotext"
+            android:textColor="#03ad38"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            />
+
+        <TextView android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hisusername"
+            android:textColor="#03ad38"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/history"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/ulinearLayout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:background="#ffffb453"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

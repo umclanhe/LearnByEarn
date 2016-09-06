@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC"
+    android:padding="10pt"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/linearLayout2">
+
+    <TextView android:text="@string/reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reward"
+        android:textColor="#b10029"
+        android:textSize="12pt"
+        android:textStyle="bold"
+     />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rewuser"
+        android:padding="5pt"
+         >
+
+        <TextView android:text="Your current score is "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewscoretext"
+            android:textColor="#03ad38"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+           />
+
+        <TextView android:text=""
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewscore"
+            android:textColor="#03ad38"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/rgcoupon"
+        >
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 points reward "
+                android:id="@+id/c50"
+                android:layout_gravity="center_horizontal" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/imgc50"-->
+                <!--android:layout_gravity="right"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 points reward "
+                android:id="@+id/c100"
+                android:layout_gravity="center_horizontal" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/imgc100"-->
+                <!--android:layout_gravity="right" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 points reward "
+                android:id="@+id/c150"
+                android:layout_gravity="center_horizontal" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/imgc150"-->
+                <!--android:layout_gravity="right" />-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 points reward "
+                android:id="@+id/c200"
+                android:layout_gravity="center_horizontal" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/imgc200"-->
+                <!--android:layout_gravity="right" />-->
+
+        <!--</LinearLayout>-->
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:background="#808080"
+        android:clickable="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/cancel"
+        android:layout_toStartOf="@+id/cancel"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/cancel"
+        android:background="#ffffb453"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/coupon1">
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/coupon2">
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/panasonic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/submit"
+        android:layout_alignRight="@+id/submit"
+        android:layout_alignEnd="@+id/submit" />
+
+    <ImageView
+        android:src="@drawable/microsoft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/cancel"
+        android:layout_alignLeft="@+id/cancel"
+        android:layout_alignStart="@+id/cancel" />
+
+    <ImageView
+        android:src="@drawable/candy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView1"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <ImageView
+        android:src="@drawable/newbalance"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+</RelativeLayout>
